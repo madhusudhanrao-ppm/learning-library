@@ -67,7 +67,7 @@ This lab assumes you have:
     ```
     <copy>
     {
-      "pid": "488",
+      "pid": "490",
       "category": "Puma Shoe ",
       "title": "Puma-shoe Demo3",
       "details": "Puma-shoe-Original",
@@ -96,7 +96,7 @@ This lab assumes you have:
 
     - To get the specific product details by using PID enter URL:  
     ```
-    <copy>http://localhost:3001/products/31</copy>
+    <copy>http://localhost:3001/products/490</copy>
     ```
     - Click on the **Send** button, Postman return the HTTP 200 Ok which is a successful GET.
 
@@ -122,7 +122,7 @@ This lab assumes you have:
     - Method: - POST  
     - URL:   
     ```
-    <copy>http://localhost:3001/products/13</copy>
+    <copy>http://localhost:3001/updateProduct/13</copy>
     ```
     - Click on Body and select raw and then in the drop down choose JSON
     - In the data portion of the Body insert the JSON data below
